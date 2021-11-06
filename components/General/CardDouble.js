@@ -15,7 +15,7 @@ const CardDouble = ({
         <div className="h-[60%] flex justify-center py-[5%]">{cardImage}</div>
 
         {/* Text Part */}
-        <div>
+        <div className="p-1">
           <DescriptionText
             cardTitle={cardTitle}
             cardDescription={cardDescription}

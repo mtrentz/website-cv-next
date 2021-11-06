@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="w-full h-full flex justify-center py-4">
       {/* Big Card / Container */}
-      <div className="bg-white w-[90%] flex flex-col rounded-lg overflow-hidden">
+      <div className="bg-white w-[90%] flex flex-col rounded-lg overflow-hidden p-4">
         {/* Top part - Profile Img and Self Description */}
         <div>
           {/* Profile Image */}
@@ -55,8 +55,8 @@ const Education = () => {
             </div>
             {/* University Text */}
             {/* Text Part */}
-            <div className="w-full">
-              <p className="font-semibold text-center">
+            <div className="w-full flex flex-col items-center">
+              <p className="font-semibold text-center w-[80%]">
                 Universidade Federal do Rio Grande do Sul
               </p>
               <p className="flex-0 text-center"> Chemical Engineering </p>
