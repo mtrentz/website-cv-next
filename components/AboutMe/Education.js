@@ -22,7 +22,7 @@ const Education = () => {
           </div>
           {/* Profile Text */}
           <div className="flex flex-col flex-1 justify-center text-center">
-            <h2 className="font-semibold">Mateus K. Trentz</h2>
+            <h2 className="font-semibold text-lg">Mateus K. Trentz</h2>
             <p className=" flex-0 leading-normal">
               I'm a Chemical Engineer who is very passionate about Tech and
               Data. I love programming and I've been doing it for a few years

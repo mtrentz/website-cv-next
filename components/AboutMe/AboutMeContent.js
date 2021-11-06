@@ -22,10 +22,6 @@ const AboutMeContent = () => {
     },
   ]);
 
-  const getLinkId = (linkName) => {
-    return navbarLinks.find((link) => link.name === linkName).id;
-  };
-
   const getLinkSelected = (linkName) => {
     return navbarLinks.find((link) => link.name === linkName).selected;
   };
