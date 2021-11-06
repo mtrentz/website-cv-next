@@ -4,13 +4,14 @@ const MenuMainSection = ({
   sectionTitle,
   sectionIcon,
   sectionHref,
-  toggleSidebar,
+  onClickFunc,
+  onClickValue,
 }) => {
   return (
     <div className="ml-4 my-0.5 items-center">
       <Link href={sectionHref}>
         <a
-          onClick={toggleSidebar}
+          onClick={() => onClickFunc(onClickValue)}
           className="flex flex-row flex-nowrap items-center"
         >
           {sectionIcon}

@@ -15,12 +15,30 @@ import { useState } from "react";
 import LogoWebsite from "../General/LogoWebsite";
 import MenuMainSection from "./MenuMainSection";
 import MenuSubSection from "./MenuSubSection";
+import { useAboutMeUpdate } from "../AboutMe/AboutMeContext";
+import { useProjectsUpdate } from "../Projects/ProjectsContext";
 
 const MainNavbar = () => {
   const [showSidebar, setShowSidebar] = useState(true);
 
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);
+  };
+
+  const handleAboutMeClick = useAboutMeUpdate();
+
+  // Handle click redirect and closes sidebar
+  const onClickAboutMe = (linkName) => {
+    toggleSidebar();
+    handleAboutMeClick(linkName);
+  };
+
+  const handleProjectsClick = useProjectsUpdate();
+
+  // Handle click redirect and closes sidebar
+  const onClickProjects = (linkName) => {
+    toggleSidebar();
+    handleProjectsClick(linkName);
   };
 
   return (
@@ -77,48 +95,61 @@ const MainNavbar = () => {
               sectionTitle="About Me"
               sectionIcon={<AiOutlineUser />}
               sectionHref="/aboutme"
-              toggleSidebar={toggleSidebar}
+              onClickFunc={onClickAboutMe}
+              // This has to be EXACTLY the same as the one in the AboutMeContext
+              onClickValue="Education"
             />
-            {/* TODO: Agora que eu nao tenho mais pagina pra esses sub-links, preciso ver como
-            vou fazer dar render no componente certo. Uma opcao é passar os states pro topo e dps ir descendo.
-            Uma outra pode ser usar redux... */}
             <MenuSubSection
               sectionTitle="Education"
               sectionIcon={<HiOutlineAcademicCap />}
-              sectionHref="#"
+              sectionHref="/aboutme"
               toggleSidebar={toggleSidebar}
+              onClickFunc={onClickAboutMe}
+              // This has to be EXACTLY the same as the one in the AboutMeContext
+              onClickValue="Education"
             />
             <MenuSubSection
               sectionTitle="Tech Skills"
               sectionIcon={<HiOutlineTerminal />}
-              sectionHref="#"
-              toggleSidebar={toggleSidebar}
+              sectionHref="/aboutme"
+              onClickFunc={onClickAboutMe}
+              // This has to be EXACTLY the same as the one in the AboutMeContext
+              onClickValue="Tech Skills"
             />
             <MenuSubSection
               sectionTitle="Complementary"
               sectionIcon={<HiOutlinePuzzle />}
-              sectionHref="#"
-              toggleSidebar={toggleSidebar}
+              sectionHref="/aboutme"
+              onClickFunc={onClickAboutMe}
+              // This has to be EXACTLY the same as the one in the AboutMeContext
+              onClickValue="Complementary"
             />
             <MenuMainSection
               sectionTitle="Projects"
               sectionIcon={<HiOutlineSparkles />}
               sectionHref="/projects"
-              toggleSidebar={toggleSidebar}
+              onClickFunc={onClickProjects}
+              // This has to be EXACTLY the same as the one in the AboutMeContext
+              onClickValue="Coding"
             />
             <MenuSubSection
               sectionTitle="Coding"
               sectionIcon={<HiOutlineCode />}
-              sectionHref="#"
-              toggleSidebar={toggleSidebar}
+              sectionHref="/projects"
+              onClickFunc={onClickProjects}
+              // This has to be EXACTLY the same as the one in the AboutMeContext
+              onClickValue="Coding"
             />
             <MenuSubSection
               sectionTitle="Data Vizzes"
               sectionIcon={<HiOutlineChartBar />}
-              sectionHref="#"
-              toggleSidebar={toggleSidebar}
+              sectionHref="/projects"
+              onClickFunc={onClickProjects}
+              // This has to be EXACTLY the same as the one in the AboutMeContext
+              onClickValue="Data Vizzes"
             />
           </div>
+          {/* TODO: Download CV Button */}
         </div>
 
         {/* socials */}

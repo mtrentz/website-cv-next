@@ -4,13 +4,14 @@ const MenuSubSection = ({
   sectionTitle,
   sectionIcon,
   sectionHref,
-  toggleSidebar,
+  onClickFunc,
+  onClickValue,
 }) => {
   return (
     <div className="ml-6 my-0.5 items-center text-md">
       <Link href={sectionHref}>
         <a
-          onClick={toggleSidebar}
+          onClick={() => onClickFunc(onClickValue)}
           className="flex flex-row flex-nowrap items-center"
         >
           {sectionIcon}

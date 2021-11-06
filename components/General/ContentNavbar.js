@@ -9,7 +9,7 @@ const ContentNavbar = ({ navbarLinks, handleClick }) => {
           </p>
           <button
             key={link.id}
-            onClick={() => handleClick(link.id)}
+            onClick={() => handleClick(link.name)}
             className={`${
               link.selected ? "bg-secondary" : "bg-accent"
             } h-2 w-20 rounded-full`}
