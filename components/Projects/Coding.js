@@ -85,7 +85,7 @@ const Coding = () => {
               objectFit="fill"
             />
           }
-          link="https://github.com/mtrentz/website-cv"
+          link="https://github.com/mtrentz/website-cv-next"
           reverse={false}
         />
         <HorizontalSeparator />

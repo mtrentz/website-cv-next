@@ -2,7 +2,7 @@ const ContentNavbar = ({ navbarLinks, handleClick }) => {
   return (
     <nav className="h-[3%] pl-[7%] mb-[3%] pt-[1%] 2xl:pl-[12%] flex flex-row gap-5 items-end">
       {navbarLinks.map((link) => (
-        <div className="group flex flex-col justify-center">
+        <div key={link.id} className="group flex flex-col justify-center">
           <p className="pb-[2px] text-main md:text-terciary md:group-hover:text-main text-xs text-center transition duration-500 ease-in-out">
             {" "}
             {link.name}{" "}
