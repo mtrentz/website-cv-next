@@ -63,6 +63,18 @@ const Tech = () => {
           />
         }
       />
+      <CardDefault
+        cardImage={
+          <Image
+            src="/tech_imgs/mysql.png"
+            alt="MySQL"
+            width="120"
+            height="64"
+          />
+        }
+        cardTitle="MySQL"
+        cardDescription="I've been working daily with SQL for two years now."
+      />
     </div>
   );
 };

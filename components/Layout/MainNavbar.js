@@ -43,11 +43,13 @@ const MainNavbar = () => {
         </button>
       </div>
 
+      {/* TODO: Quando a navbar ta aberta em mobile da pra scrollar pra baixo... E a sidebar nao scrolla
+        Ver como ou fazer ela scrollar ou prender o scroll... */}
       {/* Sidebar */}
       <nav
         className={`flex flex-col bg-white w-48 absolute inset-y-0 left-0 transform ${
           showSidebar ? "-translate-x-full" : null
-        } md:relative md:translate-x-0 transition duration-200 ease-in-out`}
+        } md:relative md:translate-x-0 transition duration-200 ease-in-out z-50`}
       >
         <div className="h-full">
           {/* Button Close for Mobile */}
