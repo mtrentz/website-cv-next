@@ -3,7 +3,7 @@ import MainNavbar from "./MainNavbar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="md:flex min-h-screen">
+    <div className="md:flex min-h-screen bg-terciary">
       <MainNavbar />
       {children}
     </div>

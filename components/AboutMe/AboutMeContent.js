@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ContentNavbar from "../General/ContentNavbar";
 import AboutMeContentRenderer from "./AboutMeContentRenderer";
+import ContentTitle from "../General/ContentTitle";
 
 const AboutMeContent = () => {
   const [navbarLinks, setNavbarLinks] = useState([
@@ -41,8 +42,8 @@ const AboutMeContent = () => {
 
   return (
     <div>
+      <ContentTitle title="About Me" />
       <ContentNavbar navbarLinks={navbarLinks} handleClick={handleClick} />
-      <span>AboutMeContent</span>
       <AboutMeContentRenderer getLinkSelected={getLinkSelected} />
     </div>
   );
