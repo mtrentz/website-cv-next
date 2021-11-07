@@ -5,10 +5,10 @@ const CardDataViz = ({ vizzesData }) => {
         // Card
         <div
           key={vizData.id}
-          className="bg-white w-[90%] h-[25vh] rounded-xl flex flex-row overflow-hidden shadow-lg"
+          className="bg-white w-[90%] h-[28vh] md:h-[20vh] lg:h-[18vh] rounded-xl flex flex-row overflow-hidden shadow-lg"
         >
           {/* Text Part */}
-          <div className=" w-[45%] p-5 overflow-auto py-2 flex flex-col object-center justify-center text-sm">
+          <div className=" w-[45%] p-5 overflow-auto py-2 flex flex-col object-center justify-center">
             {/* Title */}
             <div className="h-[30%] flex items-center justify-center">
               <p className="font-semibold text-center"> {vizData.title} </p>
@@ -25,7 +25,7 @@ const CardDataViz = ({ vizzesData }) => {
           >
             {/* This is to simmulate a rounded corner of the logo and description part with the image on the bottom of it */}
             <div className="bg-white w-2 rounded-r-lg z-20"></div>
-            <div className="h-full w-full flex flex-grow opacity-80">
+            <div className="h-full w-full flex flex-grow opacity-80 relative">
               {vizData.image}
             </div>
           </a>

@@ -26,9 +26,7 @@ const Coding = () => {
             <Image
               src="/coding_imgs/chess.png"
               alt="Chessboard"
-              width="100%"
-              height="100%"
-              layout="responsive"
+              layout="fill"
               objectFit="fill"
             />
           }
@@ -53,9 +51,7 @@ const Coding = () => {
             <Image
               src="/coding_imgs/bolsa.png"
               alt="Stock Graph"
-              width="100%"
-              height="100%"
-              layout="responsive"
+              layout="fill"
               objectFit="fill"
             />
           }
@@ -79,9 +75,7 @@ const Coding = () => {
             <Image
               src="/coding_imgs/react.png"
               alt="React Logo"
-              width="100%"
-              height="100%"
-              layout="responsive"
+              layout="fill"
               objectFit="fill"
             />
           }
@@ -107,9 +101,7 @@ const Coding = () => {
             <Image
               src="/coding_imgs/imgur.png"
               alt="Imgur Logo"
-              width="100%"
-              height="100%"
-              layout="responsive"
+              layout="fill"
               objectFit="fill"
             />
           }
@@ -133,9 +125,7 @@ const Coding = () => {
             <Image
               src="/coding_imgs/gov.png"
               alt="gov.br Logo"
-              width="100%"
-              height="100%"
-              layout="responsive"
+              layout="fill"
               objectFit="fill"
             />
           }

@@ -12,9 +12,7 @@ const Vizzes = () => {
         <Image
           src="/dashboard_imgs/recuperadores.png"
           alt="Tableau Dashboard"
-          width="500"
-          height="500"
-          layout="intrinsic"
+          layout="fill"
           objectFit="fill"
         />
       ),
@@ -29,9 +27,7 @@ const Vizzes = () => {
         <Image
           src="/dashboard_imgs/spotify.png"
           alt="Tableau Dashboard"
-          width="500"
-          height="500"
-          layout="intrinsic"
+          layout="fill"
           objectFit="fill"
         />
       ),
@@ -46,9 +42,7 @@ const Vizzes = () => {
         <Image
           src="/dashboard_imgs/pe.png"
           alt="Tableau Dashboard"
-          width="500"
-          height="500"
-          layout="intrinsic"
+          layout="fill"
           objectFit="fill"
         />
       ),
@@ -63,9 +57,7 @@ const Vizzes = () => {
         <Image
           src="/dashboard_imgs/anp.png"
           alt="Tableau Dashboard"
-          width="500"
-          height="500"
-          layout="intrinsic"
+          layout="fill"
           objectFit="fill"
         />
       ),
@@ -80,9 +72,7 @@ const Vizzes = () => {
         <Image
           src="/dashboard_imgs/balanca.png"
           alt="Tableau Dashboard"
-          width="500"
-          height="500"
-          layout="intrinsic"
+          layout="fill"
           objectFit="fill"
         />
       ),

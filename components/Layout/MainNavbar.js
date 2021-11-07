@@ -65,7 +65,7 @@ const MainNavbar = () => {
         Ver como ou fazer ela scrollar ou prender o scroll... */}
       {/* Sidebar */}
       <nav
-        className={`h-screen flex flex-col bg-white w-52 absolute inset-y-0 left-0 transform ${
+        className={`h-screen flex flex-col bg-white w-52 lg:w-60 lg:px-1 2xl:px-2 absolute inset-y-0 left-0 transform ${
           showSidebar ? "-translate-x-full" : null
         } md:relative md:translate-x-0 transition duration-200 ease-in-out z-50 md:pt-4`}
       >
