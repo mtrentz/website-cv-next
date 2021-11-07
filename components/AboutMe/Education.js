@@ -4,11 +4,11 @@ const Education = () => {
   return (
     <div className="w-full h-full flex justify-center py-4">
       {/* Big Card / Container */}
-      <div className="bg-white w-[90%] flex flex-col rounded-lg overflow-hidden p-4 md:h-[70vh] md:justify-around">
+      <div className="bg-white w-[90%] flex flex-col rounded-lg overflow-hidden p-4 lg:h-[70vh] md:justify-around">
         {/* Top part - Profile Img and Self Description */}
-        <div className="md:flex md:flex-row">
+        <div className="md:flex md:flex-col md:items-center md:justify-center lg:flex-row">
           {/* Profile Image */}
-          <div className="flex justify-center md:w-[30%]">
+          <div className="flex justify-center lg:w-[30%]">
             <div className="rounded-full mx-auto border overflow-hidden items-center w-[25vh] h-[25vh] relative">
               <Image
                 src="/education_imgs/aang.png"

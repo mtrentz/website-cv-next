@@ -15,7 +15,7 @@ const MenuSubSection = ({
           className="flex flex-row flex-nowrap items-center"
         >
           {sectionIcon}
-          <span className="ml-1 hover:font-medium hover:text-gray-600">
+          <span className="ml-1 hover:font-semibold hover:text-gray-600">
             {" "}
             {sectionTitle}{" "}
           </span>
