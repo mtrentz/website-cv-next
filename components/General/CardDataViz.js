@@ -1,6 +1,6 @@
 const CardDataViz = ({ vizzesData }) => {
   return (
-    <div className="w-full py-5 overflow-y-scroll items-center flex flex-col justify-start gap-4">
+    <div className="w-full py-5 items-center flex flex-col justify-start gap-4">
       {vizzesData.map((vizData) => (
         // Card
         <div

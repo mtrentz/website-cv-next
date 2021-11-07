@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Coding = () => {
   return (
-    <div className="py-4 flex flex-col items-center justify-center gap-2">
-      <div className="bg-white w-[90%] h-[90%] rounded-lg overflow-auto py-5 shadow-md">
+    <div className="py-4 flex flex-col h- items-center justify-center gap-2">
+      <div className="bg-white w-[90%] h-[90%] rounded-lg py-5 shadow-md">
         {/* Sections */}
         {/* CHESS IMAGE RECOGNIZER */}
         <CardCoding

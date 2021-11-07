@@ -2,12 +2,14 @@ import DescriptionText from "./DescriptionText";
 
 const CardDefault = ({ cardImage, cardTitle, cardDescription }) => {
   return (
-    <div className="bg-white w-[50%] flex flex-col rounded-md shadow p-[2%]">
+    <div className="bg-white w-1/2 md:w-full h-[35vh] flex flex-col rounded-md shadow p-[2%] ">
       {/* Image Part */}
-      <div className="h-[60%] flex justify-center py-[5%]">{cardImage}</div>
+      <div className="h-[50%] flex justify-center py-2">
+        <div className="h-[90%] w-[70%] relative">{cardImage}</div>
+      </div>
 
       {/* Text Part */}
-      <div>
+      <div className="h-[50%]">
         <DescriptionText
           cardTitle={cardTitle}
           cardDescription={cardDescription}

@@ -8,14 +8,16 @@ const CardDouble = ({
   cardImageBig,
 }) => {
   return (
-    <div className="bg-white w-[80%] flex flex-row rounded-md shadow overflow-hidden">
+    <div className="bg-white w-full h-[35vh] flex flex-row rounded-md shadow overflow-hidden md:col-span-2">
       {/* Logo and Description */}
       <div className="flex flex-col w-[40%]">
         {/* Image Part */}
-        <div className="h-[60%] flex justify-center py-[5%]">{cardImage}</div>
+        <div className="h-[50%] flex justify-center items-center py-[5%]">
+          <div className="h-[90%] w-[70%] relative">{cardImage}</div>
+        </div>
 
         {/* Text Part */}
-        <div className="p-1">
+        <div className="h-[50%]">
           <DescriptionText
             cardTitle={cardTitle}
             cardDescription={cardDescription}
