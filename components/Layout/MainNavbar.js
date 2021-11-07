@@ -49,7 +49,7 @@ const MainNavbar = () => {
         <div className="flex items-center justify-center h-[15%]">
           <div className="w-7 h-7 rounded-lg overflow-hidden">
             <Link href="/">
-              <a>
+              <a onClick={() => handleAboutMeClick("Education")}>
                 <LogoWebsite />
               </a>
             </Link>
@@ -81,7 +81,7 @@ const MainNavbar = () => {
           <div className="flex items-center justify-center h-[15%]">
             <div className="w-24 h-24 rounded-lg overflow-hidden">
               <Link href="/">
-                <a onClick={toggleSidebar}>
+                <a onClick={() => onClickAboutMe("Education")}>
                   <LogoWebsite />
                 </a>
               </Link>
