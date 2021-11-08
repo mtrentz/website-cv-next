@@ -5,7 +5,7 @@ import Image from "next/image";
 const Tech = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="py-4 w-[85%] flex flex-col items-center justify-center gap-2 md:grid md:grid-cols-3 md:gap-x-1 md:w-[60%]">
+      <div className="py-4 w-[85%] flex flex-col items-center justify-center gap-2 md:grid md:grid-cols-3 md:gap-x-1 md:w-[65%]">
         <CardDefault
           cardImage={
             <Image

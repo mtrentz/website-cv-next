@@ -47,6 +47,10 @@ const MainNavbar = () => {
     <>
       {/* Mobile Menu */}
       <div className="bg-white shadow-md h-10 flex justify-between md:hidden items-center px-4 py-2">
+        <button onClick={toggleSidebar}>
+          <FaBars />
+        </button>
+        <span>Mateus Kochhann Trentz</span>
         {/* Small Logo */}
         <div className="flex items-center justify-center h-[15%]">
           <div className="w-7 h-7 rounded-lg overflow-hidden">
@@ -57,10 +61,6 @@ const MainNavbar = () => {
             </Link>
           </div>
         </div>
-        <span>Mateus Kochhann Trentz</span>
-        <button onClick={toggleSidebar}>
-          <FaBars />
-        </button>
       </div>
 
       {/* Sidebar */}
