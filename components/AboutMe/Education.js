@@ -16,6 +16,7 @@ const Education = () => {
                 layout="fill"
                 objectFit="fill"
                 className="scale-110"
+                priority
               />
             </div>
           </div>
