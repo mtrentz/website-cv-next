@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Roboto", "Helvetica", "Arial", "sans-serif"],
+      },
       colors: {
         main: "#67839C",
         secondary: "#7790A7",

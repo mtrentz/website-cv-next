@@ -5,7 +5,6 @@ import Image from "next/image";
 const Tech = () => {
   return (
     <div className="flex items-center justify-center">
-      {/* TODO: As cartas em si tao usando um width de X%. Entao qnd eu separo em um grid da bosta... Tenho que arrumar isso! */}
       <div className="py-4 w-[85%] flex flex-col items-center justify-center gap-2 md:grid md:grid-cols-3 md:gap-x-1 md:w-[60%]">
         <CardDefault
           cardImage={

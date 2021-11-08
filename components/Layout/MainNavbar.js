@@ -15,8 +15,10 @@ import { useState } from "react";
 import LogoWebsite from "../General/LogoWebsite";
 import MenuMainSection from "./MenuMainSection";
 import MenuSubSection from "./MenuSubSection";
+import DownloadCVBtn from "./DownloadCVBtn";
 import { useAboutMeUpdate } from "../AboutMe/AboutMeContext";
 import { useProjectsUpdate } from "../Projects/ProjectsContext";
+// import cv from "../../files/cv.pdf";
 
 const MainNavbar = () => {
   const [showSidebar, setShowSidebar] = useState(true);
@@ -61,8 +63,6 @@ const MainNavbar = () => {
         </button>
       </div>
 
-      {/* TODO: Quando a navbar ta aberta em mobile da pra scrollar pra baixo... E a sidebar nao scrolla
-        Ver como ou fazer ela scrollar ou prender o scroll... */}
       {/* Sidebar */}
       <nav
         className={`h-screen flex flex-col bg-white w-52 lg:w-60 lg:px-1 2xl:px-2 absolute inset-y-0 left-0 transform ${
@@ -149,7 +149,7 @@ const MainNavbar = () => {
               onClickValue="Data Vizzes"
             />
           </div>
-          {/* TODO: Download CV Button */}
+          <DownloadCVBtn cv="/MATEUS_TRENTZ_CV.pdf" />
         </div>
 
         {/* socials */}

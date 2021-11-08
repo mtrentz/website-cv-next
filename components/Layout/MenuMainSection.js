@@ -8,7 +8,7 @@ const MenuMainSection = ({
   onClickValue,
 }) => {
   return (
-    <div className="ml-4 my-0.5 items-center">
+    <div className="ml-4 my-0.5 lg:my-1 items-center">
       <Link href={sectionHref}>
         <a
           onClick={() => onClickFunc(onClickValue)}
