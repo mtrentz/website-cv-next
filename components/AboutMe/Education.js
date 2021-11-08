@@ -11,10 +11,11 @@ const Education = () => {
           <div className="flex justify-center lg:w-[30%]">
             <div className="rounded-full mx-auto border overflow-hidden items-center w-[25vh] h-[25vh] relative">
               <Image
-                src="/education_imgs/aang.png"
+                src="/education_imgs/me.jpg"
                 alt="Profile Picture"
                 layout="fill"
                 objectFit="fill"
+                className="scale-110"
               />
             </div>
           </div>
