@@ -27,8 +27,8 @@ const Education = () => {
               I'm a Chemical Engineer who is very passionate about Tech and
               Data. I love programming and I've been doing it for a few years
               now. I currently work as a Data Scientist at MaxiQuim, which is a
-              Brazilian consulting company for the chemical industry in Brazil,
-              where I live.
+              consulting company for the chemical industry in Brazil, where I
+              live.
             </p>
           </div>
         </div>

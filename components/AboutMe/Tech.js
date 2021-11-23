@@ -16,7 +16,7 @@ const Tech = () => {
             />
           }
           cardTitle="Python"
-          cardDescription="I've been programming in Python for years, it's the language I'm most confortable at."
+          cardDescription="I've been programming in Python for years, it's the language I'm the most confortable at."
         />
         <CardDefault
           cardImage={
@@ -28,7 +28,7 @@ const Tech = () => {
             />
           }
           cardTitle="Golang"
-          cardDescription="I've been using Go since the start of 2020. It grew to be one of my favorite tools."
+          cardDescription="Started using Go more than a year ago, mostly as a hobby but sometimes for work. "
         />
         <CardDefault
           cardImage={
@@ -41,7 +41,7 @@ const Tech = () => {
             />
           }
           cardTitle="Javascript"
-          cardDescription="One of my most recent languages to learn, since it used to do web development."
+          cardDescription="Recently started learning JavaScript to work with web development."
         />
         <CardDouble
           cardImage={
