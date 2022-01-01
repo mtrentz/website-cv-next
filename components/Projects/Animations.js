@@ -5,7 +5,7 @@ import HorizontalSeparator from "../General/HorizontalSeparator";
 const Animations = () => {
   return (
     <div className="py-4 flex flex-col items-center justify-center gap-2">
-      <div className="bg-white w-[90%] h-[90%] rounded-lg py-5 shadow-md">
+      <div className="bg-white w-[98%] h-[98%] md:w-[90%] md:h-[90%] rounded-lg py-5 shadow-md">
         <AnimationCard
           title="Mouse-following Pyramids"
           description={
