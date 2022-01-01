@@ -23,6 +23,11 @@ export function ProjectsProvider({ children }) {
       name: "Data Vizzes",
       selected: false,
     },
+    {
+      id: 3,
+      name: "Animations",
+      selected: false,
+    },
   ]);
 
   const handleProjectsClick = (linkName) => {

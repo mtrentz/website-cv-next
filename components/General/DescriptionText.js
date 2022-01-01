@@ -1,6 +1,6 @@
 const DescriptionText = ({ cardTitle, cardDescription }) => {
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center align-middle w-full">
       {/* Title */}
       <p className="text-center font-semibold px-[2%]"> {cardTitle} </p>
       {/* Description */}

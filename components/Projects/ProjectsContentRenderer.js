@@ -1,5 +1,6 @@
 import Coding from "./Coding";
 import Vizzes from "./Vizzes";
+import Animations from "./Animations";
 
 const ProjectsContentRenderer = ({ getLinkSelected }) => {
   if (getLinkSelected("Coding")) {
@@ -7,6 +8,9 @@ const ProjectsContentRenderer = ({ getLinkSelected }) => {
   }
   if (getLinkSelected("Data Vizzes")) {
     return <Vizzes />;
+  }
+  if (getLinkSelected("Animations")) {
+    return <Animations />;
   }
 };
 

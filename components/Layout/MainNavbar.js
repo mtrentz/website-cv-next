@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
-import { AiOutlineCloseSquare, AiOutlineUser } from "react-icons/ai";
+import {
+  AiOutlineCloseSquare,
+  AiOutlineUser,
+  AiOutlinePlayCircle,
+} from "react-icons/ai";
 import {
   HiOutlineAcademicCap,
   HiOutlineTerminal,
@@ -147,6 +151,14 @@ const MainNavbar = () => {
               onClickFunc={onClickProjects}
               // This has to be EXACTLY the same as the one in the AboutMeContext
               onClickValue="Data Vizzes"
+            />
+            <MenuSubSection
+              sectionTitle="Animations"
+              sectionIcon={<AiOutlinePlayCircle />}
+              sectionHref="/projects"
+              onClickFunc={onClickProjects}
+              // This has to be EXACTLY the same as the one in the AboutMeContext
+              onClickValue="Animations"
             />
           </div>
           <DownloadCVBtn cv="/MATEUS_TRENTZ_CV.pdf" />
