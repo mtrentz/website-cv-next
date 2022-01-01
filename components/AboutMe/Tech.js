@@ -16,7 +16,7 @@ const Tech = () => {
             />
           }
           cardTitle="Python"
-          cardDescription="I've been programming in Python for years, it's the language I'm the most confortable at."
+          cardDescription="I've been programming in Python for years, it's the language I'm the most comfortable at."
         />
         <CardDefault
           cardImage={
@@ -28,7 +28,7 @@ const Tech = () => {
             />
           }
           cardTitle="Golang"
-          cardDescription="Started using Go more than a year ago, mostly as a hobby but sometimes for work. "
+          cardDescription="Started using Go more than a year ago, mostly as a hobby but also for work."
         />
         <CardDefault
           cardImage={
@@ -41,7 +41,7 @@ const Tech = () => {
             />
           }
           cardTitle="Javascript"
-          cardDescription="Recently started learning JavaScript to work with web development."
+          cardDescription="Learned Javascript for web development and animations on p5.js."
         />
         <CardDouble
           cardImage={
@@ -77,7 +77,7 @@ const Tech = () => {
             />
           }
           cardTitle="MySQL"
-          cardDescription="I've been working daily with SQL for two years now."
+          cardDescription="I've been working daily with SQL for more than years now."
         />
       </div>
     </div>

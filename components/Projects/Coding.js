@@ -17,7 +17,7 @@ const Coding = () => {
               Project that detects a chess board from a screenshot and lets you
               continue playing the match on Lichess. Coded on{" "}
               <ColoredText c="#F9C222" t="Python" /> with the machine learning
-              model made on <ColoredText c="#EE4C2C" t="Pytorch" />, webapp
+              model made on <ColoredText c="#EE4C2C" t="Pytorch" />, web app
               built with <ColoredText c="#156646" t="Django" /> and distributed
               with <ColoredText c="#2496ED" t="Docker" />.
             </span>
@@ -140,12 +140,11 @@ const Coding = () => {
           title="Imgur Text Scraper"
           description={
             <span>
-              A imgur random image scraper that also detects texts the image.
-              Built with both <ColoredText c="#F9C222" t="Python" /> and{" "}
+              A imgur random image scraper that also detects the text in the
+              image. Built with both <ColoredText c="#F9C222" t="Python" /> and{" "}
               <ColoredText c="#00ACD7" t="Golang" />, using a library called{" "}
-              <ColoredText c="#EE4C2C" t="EasyOCR" /> for text detection.
-              Implements <ColoredText c="#059083" t="FastAPI" /> for
-              communication. Distributed with{" "}
+              <ColoredText c="#EE4C2C" t="EasyOCR" /> for text detection. Uses{" "}
+              <ColoredText c="#059083" t="FastAPI" /> and was deployed with{" "}
               <ColoredText c="#2496ED" t="Docker" />.
             </span>
           }
@@ -166,7 +165,7 @@ const Coding = () => {
           title="Brazillian Companies Federal Revenue Data"
           description={
             <span>
-              Program that downloads and cleans and imports the federal revenue
+              Program that downloads, cleans and imports the federal revenue
               registration data for all companies in Brazil to a MySQL database
               in a Docker container. Built with{" "}
               <ColoredText c="#00ACD7" t="Golang" />, working with{" "}
