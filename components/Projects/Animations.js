@@ -11,12 +11,12 @@ const Animations = () => {
           description={
             <>
               <p>
-                Inspired by an{" "}
+                Inspired by a{" "}
                 <a
                   href="https://www.reddit.com/r/Art/comments/lck88p/441_me_digital_2021/"
                   className="text-blue-600 underline"
                 >
-                  art drawing on reddit
+                  digital art on reddit
                 </a>
                 , it's a very beautiful pyramid scheme that follows your mouse
                 on the screen.

@@ -34,6 +34,58 @@ const Coding = () => {
           reverse={false}
         />
         <HorizontalSeparator />
+        {/* PLAIN TEXT TETRIS*/}
+        <CardCoding
+          title="Plain Text Tetris"
+          description={
+            <span>
+              Website to play Tetris with plain text, using only ASCII
+              characters. Built with <ColoredText c="#00D1F7" t="React" />, all
+              the logic was coded in <ColoredText c="#F9C222" t="Javascript" />.
+              Try the game live on{" "}
+              <a
+                href="https://tetris.mtrentz.com.br"
+                className="text-blue-600 underline"
+              >
+                https://tetris.mtrentz.com.br
+              </a>
+              .
+            </span>
+          }
+          image={
+            <Image
+              src="/coding_imgs/tetris.png"
+              alt="Tetris"
+              layout="fill"
+              objectFit="fill"
+            />
+          }
+          link="https://github.com/mtrentz/Plain-Text-Tetris"
+          reverse={true}
+        />
+        <HorizontalSeparator />
+        {/* P5 Animations*/}
+        <CardCoding
+          title="Animations with p5.js"
+          description={
+            <span>
+              I've made quite a few interactive animations with p5.js, which is
+              a <ColoredText c="#F9C222" t="Javascript" /> library for creative
+              coding.
+            </span>
+          }
+          image={
+            <Image
+              src="/coding_imgs/p5.png"
+              alt="Animations p5"
+              layout="fill"
+              objectFit="fill"
+            />
+          }
+          link="https://github.com/mtrentz/p5_projects"
+          reverse={false}
+        />
+        <HorizontalSeparator />
         {/* BOLSA */}
         <CardCoding
           title="Stocks Porftolio Analysis"
